@@ -154,7 +154,7 @@ class AlienInvasion:
 
     def _ship_hit(self):
         """Respond to the ship being hit by an alien"""
-        print(self.stats.ships_left)
+        #print(self.stats.ships_left)
         if self.stats.ships_left > 0:
             # Decrement ships_left
             self.stats.ships_left -= 1
